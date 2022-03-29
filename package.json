@@ -1,13 +1,12 @@
 {
   "name": "tiki-miniapp-f2",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "The chart component of Tini App using @antv/f2",
   "scripts": {
     "build": "npm run clean && rollup -c && npm run cp",
     "cp": "node ./scripts/cp.js",
     "clean": "rm -rf es",
-    "lint": "eslint ./src --ext .js",
-    "ci": "npm run lint"
+    "lint": "eslint ./src --ext .js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
@@ -27,6 +26,10 @@
   "files": [
     "es"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NaKfl/tiki-miniapp-f2.git"
+  },
   "keywords": [
     "tini",
     "tini app",
