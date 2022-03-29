@@ -1,0 +1,1 @@
+<tini-f2 chartId="{{chartId}}" onDraw="handleDraw"/>

@@ -1,0 +1,9 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "defaultTitle": "Tini F2",
+    "pullRefresh": "NO",
+    "enableCache": "NO",
+    "allowsBounceVertical": "NO"
+  }
+}

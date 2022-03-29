@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "line": "components/line/index",
+    "column": "components/column/index"
+  }
+}

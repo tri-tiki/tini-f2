@@ -1,0 +1,9 @@
+<line
+  chartId="chart-line"
+  data="{{chartData}}"
+/>
+
+<column
+  chartId="chart-column"
+  data="{{chartData}}"
+/>

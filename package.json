@@ -1,0 +1,42 @@
+{
+  "name": "tiki-miniapp-f2",
+  "version": "0.1.5",
+  "description": "The chart component of Tini App using @antv/f2",
+  "scripts": {
+    "build": "npm run clean && rollup -c && npm run cp",
+    "cp": "node ./scripts/cp.js",
+    "clean": "rm -rf es",
+    "lint": "eslint ./src --ext .js",
+    "ci": "npm run lint"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^6.1.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fs-extra": "^8.1.0",
+    "prettier": "^2.3.2",
+    "prettier-eslint": "^13.0.0",
+    "prettier-stylelint": "^0.4.2",
+    "rollup": "^1.28.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  },
+  "files": [
+    "es"
+  ],
+  "keywords": [
+    "tini",
+    "tini app",
+    "tini framework",
+    "f2",
+    "my-f2",
+    "myF2",
+    "tini-f2",
+    "tiniF2"
+  ],
+  "main": "index.js",
+  "license": "ISC"
+}
