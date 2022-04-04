@@ -1,6 +1,6 @@
 {
   "scripts": {},
   "dependencies": {
-    "tiki-miniapp-f2": "^0.1.8"
+    "@tiki.vn/tini-f2": "^0.2.0"
   }
 }

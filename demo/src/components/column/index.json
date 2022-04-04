@@ -2,6 +2,6 @@
   "component": true,
   "componentLifeCycleV2": "YES",
   "usingComponents": {
-    "tini-f2": "tiki-miniapp-f2/es/index"
+    "tini-f2": "@tiki.vn/tini-f2/es/index"
   }
 }

@@ -9,9 +9,9 @@ Tini App component hỗ trợ vẽ biểu đồ sử dụng thư viện [@antv/f
 ### 1. Cài đặt
 
 ```bash
-npm install tiki-miniapp-f2
+npm install @tiki.vn/tini-f2
 # or
-yarn install tiki-miniapp-f2
+yarn install @tiki.vn/tini-f2
 ```
 
 ### 2. Sử dụng
@@ -21,7 +21,7 @@ yarn install tiki-miniapp-f2
 ```json
 {
   "usingComponents": {
-    "tini-f2": "tiki-miniapp-f2/es/index"
+    "tini-f2": "@tiki.vn/tini-f2/es/index"
   }
 }
 ```

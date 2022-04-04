@@ -1,6 +1,6 @@
 {
-  "name": "tiki-miniapp-f2",
-  "version": "0.1.8",
+  "name": "@tiki.vn/tini-f2",
+  "version": "0.2.0",
   "description": "The chart component of Tini App using @antv/f2",
   "scripts": {
     "build": "npm run clean && rollup -c && npm run cp",
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:NaKfl/tiki-miniapp-f2.git"
+    "url": "git@github.com:tri-tiki/tini-f2.git"
   },
   "keywords": [
     "tini",
