@@ -45,7 +45,17 @@ Component({
       getComponentSizeById(id)
     ]);
 
-    const { width, height } = canvasSize ? canvasSize : this.props;
+    let { width, height } = this.props;
+    const { width: canvasWidth, height: canvasHeight } = canvasSize;
+
+    if (!width) {
+      width = canvasWidth;
+    }
+
+    if (!height) {
+      height = canvasHeight;
+    }
+
     if (!width || !height) {
       return;
     }
@@ -56,7 +66,12 @@ Component({
         height: height * pixelRatio
       },
       () => {
-        const chart = new F2.Chart({ context, width, height, pixelRatio });
+        const chart = new F2.Chart({
+          context,
+          width,
+          height,
+          pixelRatio
+        });
         this.props.onDraw(chart);
 
         if (chart) {

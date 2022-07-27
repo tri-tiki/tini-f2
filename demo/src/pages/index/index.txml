@@ -7,3 +7,6 @@
   chartId="chart-column"
   data="{{chartData}}"
 />
+
+<!-- Data in own component -->
+<pie/>

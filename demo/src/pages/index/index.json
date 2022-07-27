@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "line": "components/line/index",
-    "column": "components/column/index"
+    "column": "components/column/index",
+    "pie": "components/pie/index"
   }
 }

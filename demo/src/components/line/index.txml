@@ -1,4 +1,6 @@
 <tini-f2
+  width="{{width}}"
+  height="{{height}}"
   chartId="{{chartId}}"
   onDraw="handleDraw"
 />

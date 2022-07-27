@@ -1,0 +1,4 @@
+<tini-f2
+  chartId="chart-pie"
+  onDraw="handleDraw"
+/>
